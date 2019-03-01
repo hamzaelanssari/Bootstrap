@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<style type="text/css">
+	html, body {
+		min-height: 100%;
+  }
+	}
+    body {
+     /* Fallback for browsers that don't support gradients */
+
+        background: #ff5e63;
+        font-family: "Varela Round", sans-serif;
+		background: linear-gradient(#ff9968, #ff5e63)  no-repeat;
+    }
+    footer{
+      overflow: hidden;
+    background-color: #333;
+    color: rgba(255,255,255,.6);
+    }
+	.form-control {
+		border-color: #d7d7d7;
+		box-shadow: none;
+    
+	}
+	.form-control:focus, .btn:focus {
+		border-color: #a177ff;
+		box-shadow: 0 0 8px #c2a8ff;
+	}
+    .contact-form {
+		width: 500px;   
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+    .contact-form form {
+        background: #fff;
+        padding: 40px;
+        border-radius: 6px;
+    }
+    .contact-form h1 {
+		text-align: center;
+		font-size: 50px;
+        margin: 0 0 15px;
+    }
+	.contact-form .form-group {
+		margin-bottom: 20px;
+	}
+    .contact-form .form-control, .contact-form .btn  {        
+        border-radius: 2px;
+		min-height: 40px;
+		transition: all 0.5s;
+		outline: none;
+    }
+    .contact-form .btn {
+        background: #a177ff;
+		font-size: 16px;
+		min-height: 50px;
+		border: none;
+    }
+    .contact-form .btn:hover, .contact-form .btn:focus {
+        background: #8048ff;
+		outline: none;
+    }
+	.contact-form .btn i {
+		margin-right: 5px;
+	}
+    .contact-form label {
+        color: #bbb;
+		font-weight: normal;
+    }
+    .contact-form textarea {
+        resize: vertical;
+    }
+    .hint-text {
+        font-size: 15px;
+		text-align: center;
+        padding-bottom: 25px;
+        opacity: 0.8;
+    }
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="Home.html">MI-N7</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="A propos.html">A propos</a>
+
+            </li>
+
+            <li class="nav-item active">
+
+                    <a class="nav-link" href="Contact.html">Contact</a>
+
+            </li>
+
+           
+
+          </ul>
+
+         
+
+        </div>
+
+      </nav>
+
+<!-- NavBar end-->
+<div class="container-fluid">
+<hr>
+ <!-- Debut carte -->
+
+<div class="row m-3">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.169520786214!2d-7.362960184482147!3d33.70456214341861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7b6d0db170185%3A0x79759da1a916fc50!2sENSET+Mohammedia!5e0!3m2!1sfr!2sma!4v1551139872062"  width="100%"  height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<!-- Fin carte-->
+<div class="contact-form">
+	<form>
+        <h1>Contact Us</h1>
+		<p class="hint-text">We'd love to hear from you, please drop us  if you've any query .</p>
+		<div class="form-group">
+			<label for="inputName">Name</label>
+			<input type="text" class="form-control" id="inputName" required>
+		</div>
+		<div class="form-group">
+			<label for="inputEmail">Email Address</label>
+			<input type="email" class="form-control" id="inputEmail" required>
+		</div>
+		<div class="form-group">
+			<label for="inputMessage">Message</label>
+			<textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+		</div>
+		<button type="submit" class="btn btn-primary btn-block"><i class="fa fa-paper-plane"></i> Send Message</button>
+	</form>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="Home.html">MI-N7</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+ <script src="node_modules/jquery/dist/jquery.js"></script>
+
+  <script src="node_modules/popper.js/dist/popper.js"></script>
+
+  <script src="node_modules/popper.js/dist/umd/popper-utils.js"></script>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>                            
